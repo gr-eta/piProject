@@ -44,4 +44,4 @@ def l_off():
 
 @app.route("/", methods=["GET"])
 def home():
-    return render_template("car.html", title="Car controller")
+    return render_template("Car.html", title="Car controller")
