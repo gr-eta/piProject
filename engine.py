@@ -1,3 +1,8 @@
-from gpiozero import Robot
+from flask import Flask, render_template
 
-robot = Robot(left(7,8), right=(9,10))
+app = Flask(__name__)
+
+
+@app.route("/", methods=["GET"])
+def home():
+    return render_template("car.html", title="Car controller")
