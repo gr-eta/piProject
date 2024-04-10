@@ -1,0 +1,43 @@
+button{
+    width: 15em;
+    font-family: Luminari, Haettenschweiler, 'Arial Narrow Bold', serif;
+    height: 15em;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 0.2%;
+    padding-left: 2%;
+    font-family: Luminari, Haettenschweiler, 'Arial Narrow Bold', serif;
+    font-size: x-large;
+}
+
+main{
+    background-color: darkgrey;
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+    max-width: 60em
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+ }
+ 
+#up_button{
+    grid-area: 1/2/2/3
+ }
+
+#down_button{
+    grid-area: 3/2/4/3
+}
+
+#left_button{
+    grid-area: 2/1/3/2
+}
+
+#right_button{
+    grid-area: 2/3/3/4
+}
