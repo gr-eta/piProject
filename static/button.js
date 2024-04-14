@@ -1,5 +1,5 @@
 // Forward button
-var buttonF = $("#forward_button");
+var buttonF = $("#up_button");
 buttonF.click(function() {
     console.log(button.text());
     if (buttonF.text() === "LED On") {
@@ -23,7 +23,7 @@ buttonF.click(function() {
 });
 
 // Reverse button
-var buttonR = $("#reverse_button");
+var buttonR = $("#down_button");
 buttonR.click(function() {
     console.log(button.text());
     if (buttonR.text() === "LED On") {
