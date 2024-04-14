@@ -2,13 +2,13 @@
 var buttonF = $("#up_button");
 buttonF.click(function() {
     console.log(button.text());
-    if (buttonF.text() === "LED On") {
+    if (buttonF.text() === "Forward") {
         $.ajax({
             url: "/forward_on",
             type: "post",
             success: function(response) {
                 console.log(response);
-                buttonF.text("LED Off");
+                buttonF.text("Stop");
             }
         });
     } else {
@@ -16,7 +16,7 @@ buttonF.click(function() {
             url: "/forward_off",
             type: "post",
             success: function() {
-                button.text("LED On");
+                button.text("Forward");
             }
         })
     }
@@ -26,13 +26,13 @@ buttonF.click(function() {
 var buttonR = $("#down_button");
 buttonR.click(function() {
     console.log(button.text());
-    if (buttonR.text() === "LED On") {
+    if (buttonR.text() === "Reverse") {
         $.ajax({
             url: "/reverse_on",
             type: "post",
             success: function(response) {
                 console.log(response);
-                buttonR.text("LED Off");
+                buttonR.text("Stop");
             }
         });
     } else {
@@ -40,7 +40,7 @@ buttonR.click(function() {
             url: "/reverse_off",
             type: "post",
             success: function() {
-                buttonR.text("LED On");
+                buttonR.text("Reverse");
             }
         })
     }
@@ -50,13 +50,13 @@ buttonR.click(function() {
 var buttonL = $("#left_button");
 buttonL.click(function() {
     console.log(button.text());
-    if (buttonL.text() === "LED On") {
+    if (buttonL.text() === "Left") {
         $.ajax({
             url: "/left_on",
             type: "post",
             success: function(response) {
                 console.log(response);
-                buttonL.text("LED Off");
+                buttonL.text("Stop");
             }
         });
     } else {
@@ -64,7 +64,7 @@ buttonL.click(function() {
             url: "/left_off",
             type: "post",
             success: function() {
-                buttonL.text("LED On");
+                buttonL.text("Left");
             }
         })
     }
@@ -74,13 +74,13 @@ buttonL.click(function() {
 var buttonRI = $("#right_button");
 buttonRI.click(function() {
     console.log(buttonRI.text());
-    if (buttonRI.text() === "LED On") {
+    if (buttonRI.text() === "Right") {
         $.ajax({
             url: "/right_on",
             type: "post",
             success: function(response) {
                 console.log(response);
-                buttonRI.text("LED Off");
+                buttonRI.text("Stop");
             }
         });
     } else {
@@ -88,7 +88,7 @@ buttonRI.click(function() {
             url: "/right_off",
             type: "post",
             success: function() {
-                buttonRI.text("LED On");
+                buttonRI.text("Right");
             }
         })
     }
