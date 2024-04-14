@@ -4,7 +4,7 @@ buttonF.click(function() {
     console.log(button.text());
     if (buttonF.text() === "LED On") {
         $.ajax({
-            url: "/led_on",
+            url: "/forward_on",
             type: "post",
             success: function(response) {
                 console.log(response);
@@ -13,7 +13,7 @@ buttonF.click(function() {
         });
     } else {
         $.ajax({
-            url: "/led_off",
+            url: "/forward_off",
             type: "post",
             success: function() {
                 button.text("LED On");
@@ -28,7 +28,7 @@ buttonR.click(function() {
     console.log(button.text());
     if (buttonR.text() === "LED On") {
         $.ajax({
-            url: "/led_on",
+            url: "/reverse_on",
             type: "post",
             success: function(response) {
                 console.log(response);
@@ -37,7 +37,7 @@ buttonR.click(function() {
         });
     } else {
         $.ajax({
-            url: "/led_off",
+            url: "/reverse_off",
             type: "post",
             success: function() {
                 buttonR.text("LED On");
@@ -52,7 +52,7 @@ buttonL.click(function() {
     console.log(button.text());
     if (buttonL.text() === "LED On") {
         $.ajax({
-            url: "/led_on",
+            url: "/left_on",
             type: "post",
             success: function(response) {
                 console.log(response);
@@ -61,7 +61,7 @@ buttonL.click(function() {
         });
     } else {
         $.ajax({
-            url: "/led_off",
+            url: "/left_off",
             type: "post",
             success: function() {
                 buttonL.text("LED On");
@@ -76,7 +76,7 @@ buttonRI.click(function() {
     console.log(buttonRI.text());
     if (buttonRI.text() === "LED On") {
         $.ajax({
-            url: "/led_on",
+            url: "/right_on",
             type: "post",
             success: function(response) {
                 console.log(response);
@@ -85,7 +85,7 @@ buttonRI.click(function() {
         });
     } else {
         $.ajax({
-            url: "/led_off",
+            url: "/right_off",
             type: "post",
             success: function() {
                 buttonRI.text("LED On");
