@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f174e8-3ba7-4e08-8434-cf619646718b" name="Changes" comment="updated html file">
-      <change afterPath="$PROJECT_DIR$/static/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <updated>1713027437536</updated>
       <workItem from="1713027438693" duration="549000" />
       <workItem from="1713116194446" duration="4000" />
-      <workItem from="1713116242536" duration="1711000" />
+      <workItem from="1713116242536" duration="2048000" />
     </task>
     <task id="LOCAL-00001" summary="updated html file">
       <option name="closed" value="true" />
@@ -117,11 +117,54 @@
       <option name="project" value="LOCAL" />
       <updated>1713117373811</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated html file">
+      <option name="closed" value="true" />
+      <created>1713117959191</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713117959191</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated html file">
+      <option name="closed" value="true" />
+      <created>1713117962440</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713117962440</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated html file">
+      <option name="closed" value="true" />
+      <created>1713118183102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713118183102</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated html file">
+      <option name="closed" value="true" />
+      <created>1713118258218</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713118258218</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated html file" />
