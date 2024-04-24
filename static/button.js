@@ -80,12 +80,12 @@ button4.click(function() {
                 button4.text("Right Off");
             }
         });
-    } else {
+    } else if(button4.text() === "Right Off"){
         $.ajax({
             url: "/right_off",
             type: "post",
             success: function(response) {
-                button3.text("Right");
+                button4.text("Right");
             }
         });
     }
