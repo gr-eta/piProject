@@ -4,7 +4,7 @@ import time
 
 app = Flask(__name__)
 
-robot = Robot(left=(9,10), right=(7,8))
+robot = Robot(left=(7,8), right=(9,10))
 ##motor1 = Motor(7, 8)
 
 @app.route("/forward", methods=["POST"])
